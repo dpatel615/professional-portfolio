@@ -7,17 +7,17 @@
 body {
     background-color: grey;
 }
- .header {
+ header {
      padding:20px;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      background-color: teal;
      color: white;
  }
-.header a:hover {
+header a:hover {
     background-color: #ddd;
     color: black;
 }
- .header h1 {
+ header h1 {
      display: inline-block;
      font-size: 50px;
  }
@@ -56,7 +56,10 @@ body {
      margin-left: 20px;
      font-size: 24px;
  }
-
+   h2:hover{
+    background-color: #ddd;
+    color: black;
+ }
  .float-right {
     float: right;
     margin-right: 25px;
@@ -72,12 +75,45 @@ body {
  .About-Me img {
      max-height:  200px;
  }
-.Work-Experiences img {
-    margin-top: 25px;
-    margin-right: 15px;
-    max-height: 5000px;
-    max-width: 1000px;
+ .Work-Experiences {
+     background-color: lightsteelblue;
+ }
+ .card {
+     flex: 1 0 0;
+     padding: 10px;
+     border-style: solid;
+     border-width: 1px;
+ }
+ .card-1 img {
+     width: 100%;
+     height: 200%;
+ }
+
+.card img {
+    width: 100%;
+    max-width: 400px;
 }
 .Contact-me{
     text-decoration: underline;
+    font-size: 30px;
+}
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    color: blanchedalmond;
+    font-size: 25px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    nav,main {
+        flex-direction: column;
+    }
+
+    section {
+        padding-right: 0;
+    }
+   p {
+       font-size: 5px;
+   }
+
 }
