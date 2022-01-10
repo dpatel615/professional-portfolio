@@ -78,6 +78,9 @@ header a:hover {
  .Work-Experiences {
      background-color: lightsteelblue;
  }
+ .card-1,.card {
+    box-shadow: inset 0px 0px 88px var(--heliotrope), 0 0 150px var(--heliotrope);
+ }
  .card {
      flex: 1 0 0;
      padding: 10px;
