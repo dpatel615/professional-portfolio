@@ -78,7 +78,7 @@ Change the font-size, and add specified padding and margin to navigation bar */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: lightgray;
     color: black;
 }
@@ -118,7 +118,7 @@ Change the font-size, and add specified padding and margin to navigation bar */
     position: absolute;
     background-color: honeydew;
     padding: 8px;
-    bottom: 85px;
+    bottom: 95px;
 }
 /* set up the title that written on card-1 image */
 .card h3 {
