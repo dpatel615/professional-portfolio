@@ -90,15 +90,7 @@ Change the font-size, and add specified padding and margin to navigation bar */
  .Work-Experiences {
      background-color: lightgray;
  }
- .card-1,.card {
-    /* box-shadow: inset 0px 0px 88px var(--heliotrope), 0 0 150px var(--heliotrope); */
- }
- .card {
-     /* flex: 1 0 0; 
-     padding: 10px;
-     border-style: solid;
-     border-width: 1px; */
- }
+ 
 /* set up card section image to width 400px, height 400px, object fit to cover, border to 5px with solid black and opacity(blur image) o.5 */
  .card img {
      width: 400px ;
