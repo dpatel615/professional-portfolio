@@ -1,27 +1,32 @@
+/*  box-sizing, padding and margin for full page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin:0
 }
- 
+/* set body color */ 
 body {
     background-color: grey;
 }
+/* set up the header with padding of 20px, specific font, backgroung color, and text color of white */
  header {
      padding:20px;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      background-color: teal;
      color: white;
  }
+ /* Highlight the header link when user click on it */
 header a:hover {
     background-color: #ddd;
     color: black;
 }
+
  header h1 {
      display: inline-block;
      font-size: 50px;
  }
-
+/* Display Navigation bar inline with and to the right of brand name in header.
+Change the font-size, and add specified padding and margin to navigation bar */
  nav {
      padding-top: 15px;
      margin-right: 20px;
@@ -29,27 +34,29 @@ header a:hover {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 20px;
  }
-
+/* show no marker for list litem in navigation bar */
  ul {
      list-style-type: none;
  }
-
+/* Display navigation bar in one row */
  li {
      display: inline;
      margin-left: 25px;
  }
-
+/* link show with underline and in white, while click */
  a {
      color: white;
      text-decoration: underline;
  }
+ /* set up the image pictue of myself with paddiing of top-bottom 10px and right-left 15px
+  and with maximum height and width of 450px and 300px */
  .Pic img {
     display:block;
     padding: 10px 15px;
     max-height: 450px;
     max-width: 300px;
  }
-
+ /*  */
  .content {
      width:95%;
      display:inline-block;
