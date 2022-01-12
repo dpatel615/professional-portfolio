@@ -14,7 +14,7 @@
   ## mock-up Image
    The following image shows the web application's appearance:
 
-![The professional-portfolio webpage inculdes a navigation bar, a header image, and cards with text and images at the bottom of the page.](https://github.com/dpatel615/professional-portfolio/blob/main/Assets/image/Mock-up-Image.jpg)
+![The professional-portfolio webpage inculdes a navigation bar, a header image, and cards with text and images at the bottom of the page.](https://github.com/dpatel615/professional-portfolio/blob/main/Assets/image/screencapture-localhost-52330-index-html-2022-01-12-18_29_47.png)
 
 
   ## Deployed Application Link
