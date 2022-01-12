@@ -98,6 +98,7 @@ Change the font-size, and add specified padding and margin to navigation bar */
      object-fit: cover;
      border: 5px solid black;
      opacity: 0.5;
+     margin-right: 15px;
  }
 /* set up the image to original clicked on image */
 .card img:hover {
@@ -120,11 +121,15 @@ Change the font-size, and add specified padding and margin to navigation bar */
     padding: 8px;
     bottom: 95px;
 }
+.row {
+    display: flex;
+}
 /* set up the title that written on card-1 image */
 .card h3 {
     position: absolute;
     background-color: honeydew;
     padding: 8px;
+    margin-right: 20px;
 }
 /* set up heading*/
 h4 {
@@ -145,23 +150,27 @@ footer {
 }
 /* set up the screen when to smaller the screen to adjust */
 @media  screen and (max-width: 968px) {
-   body {
-       background-color: green;
-   }
-   
-    nav,main {
-        flex-direction: column;
-        display: inline;
+    body {
+        background-color: green;
     }
-
-    section {
-        padding-right: 0;
+    
+     nav,main {
+         flex-direction: column;
+         display: inline;
+        font-size: 20px;
+     }
+ 
+     section {
+         padding-right: 0;
+     } 
+    p {
+        font-size: 15px;
     } 
-   p {
-       font-size: 15px;
-   } 
-   .float-right {
-       height:  60px;
-   }
+    .float-right {
+        height:  60px;
+    }
+    
+  }
+  
+  
    
-}     
