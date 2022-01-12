@@ -17,6 +17,10 @@
 ![The professional-portfolio webpage inculdes a navigation bar, a header image, and cards with text and images at the bottom of the page].(https://github.com/dpatel615/professional-portfolio/blob/main/Assets/image/Mock-up-Image.jpg)
 
 
-  
+  ## Deployed Application Link
+
+The deployed GitHub page for this web application can be found:  https://dpatel615.github.io/professional-portfolio
+
+The GitHub repository for this web application can be found:  https://github.com/dpatel615/professional-portfolio
   
  
