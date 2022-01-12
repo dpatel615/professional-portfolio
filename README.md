@@ -12,8 +12,9 @@
   
   
   ## mock-up Image
-   
+   The following image shows the web application's appearance:
 
+![The professional-portfolio webpage inculdes a navigation bar, a header image, and cards with text and images at the bottom of the page].
   
   
  
