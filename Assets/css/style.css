@@ -144,16 +144,24 @@ footer {
     text-align: center;
 }
 /* set up the screen when to smaller the screen to adjust */
-@media screen and (max-width: 920px) {
+@media  screen and (max-width: 968px) {
+   body {
+       background-color: green;
+   }
+   
     nav,main {
         flex-direction: column;
+        display: inline;
     }
 
     section {
         padding-right: 0;
-    }
+    } 
    p {
-       font-size: 5px;
+       font-size: 15px;
+   } 
+   .float-right {
+       height:  60px;
    }
-
-}
+   
+}     
