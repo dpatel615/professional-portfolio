@@ -149,7 +149,7 @@ footer {
     text-align: center;
 }
 /* set up the screen when to smaller the screen to adjust */
-@media  screen and (max-width: 968px) {
+@media (max-width: 1085px) {
     body {
         background-color: green;
     }
@@ -159,16 +159,21 @@ footer {
          display: inline;
         font-size: 20px;
      }
- 
-     section {
-         padding-right: 0;
-     } 
+    
     p {
-        font-size: 15px;
+        font-size: 20px;
     } 
     .float-right {
-        height:  60px;
+        height:  125px;
     }
+    .row {
+        flex-direction: column;
+    }
+ @media (max-width: 768px) {
+     body {
+    background-color: lightcoral ;
+     } 
+ }
     
   }
   
